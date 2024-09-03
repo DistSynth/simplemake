@@ -1,0 +1,16 @@
+tasks:
+  go-deps:
+    commands:
+      - go mod tidy
+  go-build:
+    dependencies:
+      - go-deps
+    commands:
+      - go build -o simplemake cmd/main.go
+    generates:
+      - simplemake
+  test:
+    var:
+      var1: test1
+    commands:
+      - echo {{.var1}}
