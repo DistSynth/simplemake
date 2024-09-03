@@ -1,4 +1,4 @@
-module github.com/simplemake
+module github.com/distsynth/simplemake
 
 go 1.22.3
 

@@ -3,10 +3,10 @@ package main
 import (
 	"os"
 
+	"github.com/distsynth/simplemake/internal"
 	"github.com/rs/zerolog"
 	"github.com/rs/zerolog/log"
 	"github.com/rs/zerolog/pkgerrors"
-	"github.com/simplemake/internal"
 	"github.com/urfave/cli/v2"
 )
 
